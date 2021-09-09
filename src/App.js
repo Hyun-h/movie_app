@@ -27,7 +27,7 @@ class App extends React.Component {
     const { isLoading, movies } = this.state;
     return (
       <div>
-        커밋 잘 올라가는지 테스트...
+        커밋 잘 올라가는지 테스트...2
         {this.state.isLoading
           ? "Loading...."
           : movies.map((movie) => (
