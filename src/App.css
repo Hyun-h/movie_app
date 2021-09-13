@@ -160,33 +160,3 @@ body,
   padding-top: 70px;
   width: 80%;
 }
-
-.movie {
-  width: 45%;
-  background-color: #fff;
-  margin-bottom: 70px;
-  display: flex;
-  font-weight: 300;
-  padding: 20px;
-  position: relative;
-}
-
-.movies_img_wrap {
-  width: 30%;
-  margin-right: 30px;
-  position: absolute;
-  top: -50px;
-}
-
-.movies_img_wrap > img {
-  width: 100%;
-}
-
-.movies_data {
-  width: 70%;
-}
-
-.movie_title,
-.movie_year {
-  font-weight: bold;
-}

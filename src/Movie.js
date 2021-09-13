@@ -6,10 +6,10 @@ import "./Movie.css";
 function Movie({ year, title, summary, poster, genres }) {
   return (
     <div className="movie">
-      <div className="movies_img_wrap">
+      <div className="movie_img_wrap">
         <img src={poster} alt={title} title={title} />
       </div>
-      <div className="movies_data">
+      <div className="movie_data">
         <h3 className="movie_title">{title}</h3>
         <h5 className="movie_year">{year}</h5>
         <ul className="genres">
@@ -19,7 +19,7 @@ function Movie({ year, title, summary, poster, genres }) {
             </li>
           ))}
         </ul>
-        <p className="movie_summary">{summary}</p>
+        <p className="movie_summary">{summary.slice(0, 140)}...</p>
       </div>
     </div>
   );
