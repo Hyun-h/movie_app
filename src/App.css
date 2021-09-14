@@ -31,7 +31,7 @@ body,
   margin-left: -100px;
 
   perspective: 200px;
-  transform-type: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 /* The dot */
@@ -49,7 +49,7 @@ body,
   border-radius: 100px;
   border: 40px outset #1e3f57;
 
-  transform-type: preserve-3d;
+  transform-style: preserve-3d;
   transform-origin: 50% 50%;
 
   transform: rotateX(24deg) rotateY(20deg) rotateZ(0deg) translateZ(-25px);
