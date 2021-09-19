@@ -1,0 +1,31 @@
+.nav_btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #fff;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.nav_btn li {
+  padding: 20px;
+}
+
+.nav_btn a {
+  color: #777;
+  transition: all 0.2s;
+}
+
+.nav_btn a:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_btn li {
+    padding: 10px;
+  }
+
+  .nav_btn a {
+    font-size: 10px;
+  }
+}

@@ -161,7 +161,17 @@ body,
   width: 80%;
 }
 
+.movies > a {
+  width: 47%;
+  text-decoration: none;
+  color: inherit;
+}
+
 @media screen and (max-width: 768px) {
+  .movies > a {
+    width: 100%;
+  }
+
   .movies {
     flex-direction: column;
   }

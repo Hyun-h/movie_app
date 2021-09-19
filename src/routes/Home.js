@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Movie from "../components/Movie";
-import "./reset.css";
+import "../reset.css";
 import "./Home.css";
 
 class Home extends React.Component {
@@ -48,6 +48,7 @@ class Home extends React.Component {
                 summary={movie.summary}
                 poster={movie.medium_cover_image}
                 genres={movie.genres}
+                bgImg={movie.background_image}
               />
             ))}
           </div>
